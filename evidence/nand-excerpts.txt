@@ -1,0 +1,47 @@
+Selected lines, not the complete log. Initial RDT read failure was followed by inheritance from Whole system.
+00008040 [ERR] Read RDT result fail 0/2
+00008116 Read ODBT ok 0_0_77
+0000811c Read ODBT ok 0_0_78
+000081ef InHerit Done From : 3 ([2]RDT [3]Whole system)
+0000b349 bank0 block0 write FW OK!
+0000b377 bank0 block0 read FW ok!
+0000b37e bank0 block0 read FC table ok!
+0000b387 bank0 block0 read DBT ok!
+0000b38f bank0 block0 read ODBT ok!
+0000b53f bank0 block1 write FW OK!
+0000b56d bank0 block1 read FW ok!
+0000b574 bank0 block1 read FC table ok!
+0000b57d bank0 block1 read DBT ok!
+0000b585 bank0 block1 read ODBT ok!
+0000b736 bank0 block2 write FW OK!
+0000b764 bank0 block2 read FW ok!
+0000b76b bank0 block2 read FC table ok!
+0000b774 bank0 block2 read DBT ok!
+0000b77c bank0 block2 read ODBT ok!
+0000b92c bank0 block3 write FW OK!
+0000b95a bank0 block3 read FW ok!
+0000b961 bank0 block3 read FC table ok!
+0000b96a bank0 block3 read DBT ok!
+0000b972 bank0 block3 read ODBT ok!
+0000bb22 bank1 block0 write FW OK!
+0000bb51 bank1 block0 read FW ok!
+0000bb57 bank1 block0 read FC table ok!
+0000bb60 bank1 block0 read DBT ok!
+0000bb68 bank1 block0 read ODBT ok!
+0000bd19 bank1 block1 write FW OK!
+0000bd47 bank1 block1 read FW ok!
+0000bd4e bank1 block1 read FC table ok!
+0000bd57 bank1 block1 read DBT ok!
+0000bd5f bank1 block1 read ODBT ok!
+0000bf0f bank1 block2 write FW OK!
+0000bf3d bank1 block2 read FW ok!
+0000bf44 bank1 block2 read FC table ok!
+0000bf4d bank1 block2 read DBT ok!
+0000bf55 bank1 block2 read ODBT ok!
+0000c105 bank1 block3 write FW OK!
+0000c134 bank1 block3 read FW ok!
+0000c13b bank1 block3 read FC table ok!
+0000c144 bank1 block3 read DBT ok!
+0000c14c bank1 block3 read ODBT ok!
+0000cfef [SPI] RealCapacity 64 bank 2 LUN 1 host 120 RDT 0
+0000d08f Add spi lock after llf all succeed

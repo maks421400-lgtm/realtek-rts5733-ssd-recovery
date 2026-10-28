@@ -1,0 +1,49 @@
+Original MP result; target serial redacted.
+
+
+********[DUT 0] 1_20261028135753********
+
+-- Step 00 -- Check flash id  -> Pass
+
+-- Step 01 -- Generate Config  -> Pass
+
+-- Step 02 -- Check SPI  -> Pass
+
+-- Step 03 -- Set LLF Tag  -> Pass
+
+-- Step 04 -- Reset Device  -> Pass
+
+-- Step 05 -- Switch To Llf Mode  ->   Pass
+
+-- Step 06 -- Download Spi  -> Pass1
+
+-- Step 07 -- Set Flash Type  -> Pass
+
+-- Step 08 -- Set LLF Tag  -> Pass
+
+-- Step 09 -- Reset Device to SPI Code  -> Pass
+
+-- Step 10 -- Check Flash Type  -> Pass
+
+-- Step 11 -- Download banka1  -> Pass
+
+-- Step 12 -- Load Configure File  -> Pass
+
+-- Step 13 -- Download FC Table  -> Pass
+
+-- Step 14 -- Llf Init -> Pass
+
+-- Step 15 -- Do LLF  -> Pass
+
+Pass (120G)        Test time: 65 s
+
+Model name: Realtek SATA Drive
+
+Serial number: [TARGET_SERIAL]
+
+Capacity: 120GB
+
+Station: MP1
+
+
+

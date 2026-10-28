@@ -1,0 +1,5 @@
+*.exe
+*.dll
+*.rar
+*.zip
+__pycache__/
