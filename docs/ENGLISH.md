@@ -4,7 +4,7 @@ This repository documents one successful recovery, with board photos, an offline
 
 Hardware: M.2 2280 **SATA**, Realtek **RTS5733DLQ**, Intel B17A NAND marked **29F01T2AMCTH1**. The SSDMP database calls the package `PF29R01T2AMCTH1`. NAND ID: **89 C4 08 32 A6 00 00 00**, responding at **CH0/CE4 and CH1/CE4**.
 
-The supplied tool was SSDMP **2.74.0.0_20230414_D_X64**, package `RTS5733DLQ_B17A_RS10S1C9_VA001CC9(20230718).rar`. Firmware binaries are not distributed here; no verified official download URL is available.
+The supplied tool was SSDMP **2.74.0.0_20230414_D_X64**, package `RTS5733DLQ_B17A_RS10S1C9_VA001CC9(20230718).rar`. [Download SSDMP, firmware and the prepared Intel 120 GB profile](../tools/README.md). This is a repack of the owner-supplied tools, not an official Realtek release. Automatic Start is disabled; Flash ID checks remain enabled.
 
 The original Micron/240 GB profile had the wrong bank mapping. A matching Intel/120 GB profile, an expected-ID `PAR_1` entry and a separate `intel120_id.ini` filename resolved the configuration mismatch without disabling checks. The USB enclosure could read NAND IDs but did not complete recovery. Direct SATA in a compatible M.2 slot completed MP with **Pass (120G)**.
 

@@ -2,4 +2,5 @@
 *.dll
 *.rar
 *.zip
+!tools/SSDMP-RTS5733DLQ-Intel-B17A-120GB.zip
 __pycache__/
